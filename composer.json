@@ -1,0 +1,30 @@
+{
+    "name": "reporting",
+    "description": "Quarterly financial reporting",
+    "keywords": [ "financial", "reporting", "rest" ],
+    "homepage": "https://github.com/polad/reporting",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Polad Mirzayev",
+            "email": "polad.mirzayev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "danielstjules/pho": "dev-master",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reporting\\": "./src/app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reporting\\Test\\Unit\\": "./src/test/unit/"
+        }
+    }
+}
